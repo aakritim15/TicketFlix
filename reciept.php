@@ -111,7 +111,7 @@
 			content: "";
 			display: block;
 			position: relative;
-			background: #aa964c;
+			background: #e90b73;
 			box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
 		}
 

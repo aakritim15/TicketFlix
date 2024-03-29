@@ -70,9 +70,9 @@ $row = mysqli_fetch_array($movieImageById);
 
                     <select name="theatre" required>
                         <option value="" disabled selected>THEATRE</option>
-                        <option value="main-hall">Main Hall</option>
-                        <option value="vip-hall">VIP Hall</option>
-                        <option value="private-hall">Private Hall</option>
+                        <option value="main-hall">Platinum</option>
+                        <option value="vip-hall">Silver</option>
+                        <option value="private-hall">Gold</option>
                     </select>
 
                     <select name="type" required>
