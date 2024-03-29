@@ -59,7 +59,7 @@ if (isset($_POST['but_logout'])) {
                         <input placeholder="Actors" type="text" name="movieActors" required>
                         <label>Price</label>
                         <input placeholder="Platinum" type="text" name="mainhall" required><br />
-                        <input placeholder="Vip-Hall" type="text" name="viphall" required><br />
+                        <input placeholder="Silver" type="text" name="viphall" required><br />
                         <input placeholder="Gold" type="text" name="privatehall" required><br />
                         <br>
                         <label>Add Poster</label>

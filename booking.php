@@ -71,7 +71,7 @@ $row = mysqli_fetch_array($movieImageById);
                     <select name="theatre" required>
                         <option value="" disabled selected>THEATRE</option>
                         <option value="main-hall">Platinum</option>
-                        <option value="vip-hall">Silver</option>
+                        <option value="Silver">Silver</option>
                         <option value="private-hall">Gold</option>
                     </select>
 

@@ -29,7 +29,7 @@ if (isset($_POST['but_logout'])) {
 
 <body>
     <?php
-    $link = mysqli_connect("localhost", "root", "", "cinema_db");
+    $link = mysqli_connect("localhost", "root", "", "TicketFlixTest");
     $sql = "SELECT * FROM bookingTable";
     $bookingsNo = mysqli_num_rows(mysqli_query($link, $sql));
     $messagesNo = mysqli_num_rows(mysqli_query($link, "SELECT * FROM feedbackTable"));
@@ -56,9 +56,9 @@ if (isset($_POST['but_logout'])) {
 
                             <select name="theatre" required>
                                 <option value="" disabled selected>THEATRE</option>
-                                <option value="main-hall">Platinum</option>
-                                <option value="vip-hall">Silver</option>
-                                <option value="private-hall">Gold</option>
+                                <option value="Platinum">Platinum</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
                             </select>
 
                             <select name="type" required>
