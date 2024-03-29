@@ -34,7 +34,7 @@ header {
   left: -25%;
   height: 219%;
   width: 200%;
-  background: #e90b73;
+  background: #F2613F;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
   transform: rotateZ(-6deg) skew(-6deg);
 }
@@ -49,8 +49,13 @@ header {
   font-size: 7em;
   font-family: "Lobster", cursive;
   transform: rotateZ(-6deg);
-  text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616,
-    8px 8px 0px #b08909, 10px 10px 0px #ab995e;
+  /* text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616,
+    8px 8px 0px #b08909, 10px 10px 0px #ab995e; */
+    text-shadow: 10px 10px 0px #9B3922, 
+    4px 4px 0px #7A2E1A, 
+    6px 6px 0px #592116,
+    8px 8px 0px #3A170E, 
+    10px 10px 0px #1D0B07;
 }
 
 nav {
@@ -79,7 +84,7 @@ nav {
 
 .navbar ul li:hover {
   cursor: pointer;
-  background-color: #e90b73;
+  background-color: #F2613F;
 }
 
 .navbar ul li:hover > a {
@@ -114,7 +119,7 @@ footer {
   display: grid;
   grid-gap: 5px;
   padding: 10px 10%;
-  background-color: #4e4e4e;
+  background-color: #0f0e0e;
   color: #fff;
   bottom: 0;
   width: 100%;
@@ -128,7 +133,7 @@ footer {
     content: "";
     display: block;
     position: relative;
-    background: #e90b73;
+    background: #F2613F;
     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
   }
   
@@ -141,8 +146,11 @@ footer {
     color: #fff;
     font-size: 7em;
     font-family: "Lobster", cursive;
-    text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616,
-      8px 8px 0px #b08909, 10px 10px 0px #ab995e;
+    text-shadow: 10px 10px 0px #9B3922, 
+    4px 4px 0px #7A2E1A, 
+    6px 6px 0px #592116,
+    8px 8px 0px #3A170E, 
+    10px 10px 0px #1D0B07;
   }
   
 .footer-section {
@@ -200,7 +208,7 @@ footer {
 }
 
 .movie-show-container > h1 {
-  color: #6e5a11;
+  color: #9B3922;
   text-align: left;
   padding: 0 0 10px 0;
 }
@@ -216,7 +224,7 @@ footer {
   display: block;
   height: 3px;
   width: 7%;
-  background: #6e5a11;
+  background: #9B3922;
   position: relative;
   bottom: -10px;
 }
@@ -290,7 +298,7 @@ footer {
 
 .trailers-section > h1 {
   text-align: left;
-  color: #6e5a11;
+  color: #9B3922;
 }
 
 .trailers-section > h3 {
@@ -303,7 +311,7 @@ footer {
   display: block;
   height: 3px;
   width: 7%;
-  background: #6e5a11;
+  background:#9B3922;
   position: relative;
   bottom: -10px;
 }
@@ -378,7 +386,7 @@ footer {
 }
 
 .services-section > h1 {
-  color: #6e5a11;
+  color: #9B3922;
   text-align: left;
   padding: 0 0 10px 0;
 }
@@ -394,7 +402,7 @@ footer {
   display: block;
   height: 3px;
   width: 7%;
-  background: #6e5a11;
+  background: #9B3922;
   position: relative;
   bottom: -10px;
 }
@@ -407,7 +415,7 @@ footer {
 }
 
 .service-item > h2 {
-  color: #6e5a11;
+  color: #9B3922;
   padding: 25px 0;
 }
 
@@ -479,13 +487,13 @@ footer {
 
 .booking-panel-section4 {
   border-radius: 10px;
-  border: 1px #6e5a11 solid;
+  border: 1px #9B3922solid;
   background-color: #fff;
 }
 
 .booking-panel-section4 > .title {
   border-bottom: #969696 1px solid;
-  color: #6e5a11;
+  color: #9B3922;
   padding: 0 0 15px 0;
   margin: 0 0 15px 0;
   font-size: 24pt;
@@ -509,7 +517,7 @@ footer {
 }
 
 .booking-form-container {
-  background-color: #6e5a11;
+  background-color: #9B3922;
   width: 100%;
   padding: 25px;
   margin: 20px 0;
@@ -530,7 +538,7 @@ footer {
   float: right;
   width: 25%;
   text-align: center;
-  background-color: #a3861e;
+  background-color:#9B3922;
   color: #fff;
   transition: all 0.7s ease;
   cursor: pointer;
@@ -583,7 +591,7 @@ footer {
   padding: 0 0 20px 0;
   margin: 0 0 40px 0;
   border-bottom: 1px solid #bdbdbd;
-  color: #6e5a11;
+  color: #9B3922;
 }
 
 .schedule-dates {
@@ -594,7 +602,7 @@ footer {
 
 .schedule-item {
   padding: 15px;
-  background-color: #6e5a11;
+  background-color: #9B3922;
   margin-right: 10px;
   color: #fff;
   cursor: pointer;
@@ -603,11 +611,11 @@ footer {
 
 .schedule-item:hover {
   background-color: #b6b6b6;
-  color: #6e5a11;
+  color: #9B3922;
 }
 
 .schedule-item-selected {
-  color: #6e5a11;
+  color:#9B3922;
   background-color: #b6b6b6;
   cursor: auto;
 }
@@ -619,7 +627,7 @@ footer {
 
 .schedule-table table tr th {
   padding: 10px 0 10px 40px;
-  background-color: #6e5a11;
+  background-color: #9B3922;
   border: 1px solid #b6b6b6;
   color: #fff;
 }
@@ -690,7 +698,7 @@ footer {
 
 .contact-us-section h1 {
   padding: 20px 0;
-  border-bottom: #4e4e4e solid 1px;
+  border-bottom: 0C0C0C solid 1px;
   margin-bottom: 20px;
 }
 
@@ -704,11 +712,11 @@ footer {
 }
 
 .contact-us-section1 form *:not(button) {
-  border: #6e5a11 1px solid;
+  border: #9B39221px solid;
 }
 
 .contact-us-section1 form button {
-  background-color: #6e5a11;
+  background-color: #9B3922;
   color: #b6b6b6;
   border: none;
   cursor: pointer;
@@ -719,8 +727,8 @@ footer {
 }
 
 .contact-us-section2 h3 {
-  color: #4e4e4e;
-  border-bottom: #6e5a11 solid 1px;
+  color: 0C0C0C;
+  border-bottom: #9B3922 solid 1px;
   padding: 10px 0;
   margin-bottom: 10px;
 }
@@ -845,18 +853,18 @@ footer {
 }
 
 .admin-section1 ul li:hover {
-  background-color: #6e5a11;
+  background-color: #9B3922;
   color: #fff;
   border-left: #fff 3px solid;
 }
 
 .admin-section1 ul ul {
-  background-color: #4e4e4e;
+  background-color: 0C0C0C;
   margin-bottom: 1px;
 }
 
 .admin-section1 ul ul li {
-  background-color: #4e4e4e;
+  background-color: 0C0C0C;
   margin-bottom: 1px;
 }
 
@@ -1036,7 +1044,7 @@ footer {
   margin: 10px 32px;
   width: 49%;
   text-align: center;
-  background-color: #a3861e;
+  background-color: #9B3922;
   color: #fff;
   transition: all 0.7s ease;
   cursor: pointer;

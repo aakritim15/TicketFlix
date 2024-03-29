@@ -35,7 +35,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>
@@ -75,7 +75,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>
@@ -115,7 +115,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>
@@ -155,7 +155,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>
@@ -195,7 +195,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>
@@ -235,7 +235,7 @@
                         <h2>Captain Marvel</h2>
                         <i class="far fa-clock"></i> 125m <i class="fas fa-desktop"></i> IMAX
                         <h3>SYNOPSIS</h3>
-                        <p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization
+                        <p>Movies transport audiences to captivating worlds, evoking emotions, and sparking imaginations through compelling stories, characters, and visuals.
                         </p>
                         <div class="schedule-item"> DETAILS</a>
                         </div>

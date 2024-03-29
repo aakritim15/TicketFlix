@@ -51,18 +51,22 @@
         <div class="contact-us-section contact-us-section2">
             <h1>Address & Info</h1>
             <h3>Phone Numbers</h3>
-            <p><a href="tel:01011391148">+2 010 11 39 11 48</a><br>
-                <a href="tel:01011391148">+2 010 11 39 11 48</a></p>
+            <p><a href="tel:01011391148">+91 9202546295</a><br>
+                <a href="tel:01011391148">+91 9202546296</a></p>
             <h3>Address</h3>
-            <p>El Sherouk City , Suez Desert Road , Cairo 11837 - P.O. Box 43</p>
+            <p>TicketFlix
+            123, Movie Street
+            City Center, Bollywood Nagar
+            Mumbai, Maharashtra
+            </p>
             <h3>E-mail</h3>
-            <p><a href="mailto:cinemareservation@bue.edu.eg">cinemareservation@bue.edu.eg</a></p>
+            <p><a href="mailto:cinemareservation@bue.edu.eg">ticketflix@gmail.com</a></p>
         </div>
     </div>
-    <div style="width: 75%; height: 350px; margin: 15%;">
+    <!-- <div style="width: 75%; height: 350px; margin: 15%;">
         <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=BUE&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
-    </div>
+    </div> -->
     <footer></footer>
     <script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/owl.carousel.min.js "></script>
