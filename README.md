@@ -9,24 +9,8 @@ people to get details of trending films and to get movie tickets in the
 easiest possible way making it simple for all to buy tickets from anytime
 and anywhere.
 
-## Installation
-
-For This Project I used [Xampp](https://www.apachefriends.org/).
-
-```php
-1) Open PHPMyAdmin
-2) import 'cinema_db.sql'
-3) Open Connection.php and update db_name and password.
-4) Go to admin Folder and Open config.php and update db_name and password.
-```
-
-## Usage
-
-```bash
-Admin Login Details
-
+Admin
 Username:- 123
 Password:- 123
-```
 
 
