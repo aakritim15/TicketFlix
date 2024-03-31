@@ -12,7 +12,7 @@ $type = $_POST['type'];
 $date = $_POST['date'];
 $time = $_POST['hour'];
 $movieid = $_POST['movie_id'];
-$order = "ARVR" . rand(10000, 99999999);
+$order = "TICKETFLIX" . rand(10000, 99999999);
 $cust  = "CUST" . rand(1000, 999999);
 
 //sessions
@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Aman_Sharma</title>
+    <title>TicketFlix</title>
     <script src="_.js "></script>
 </head>
 
@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td><label>ORDER_ID::*</label></td>
+                        <td><label>ORDER_ID:</label></td>
                         <td><?php echo $order; ?>
                             <input type="hidden" name="ORDER_ID" value="<?php echo $order; ?>">
                         </td>
@@ -71,42 +71,42 @@ if (isset($_POST['submit'])) {
 
                     <tr>
                         <td>2</td>
-                        <td><label>Name</label></td>
+                        <td><label>Name:</label></td>
                         <td><?php echo $_POST['fName'] . " " . $_POST['lName']; ?></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td><label>Website ::*</label></td>
+                        <td><label>Website :</label></td>
                         <td>
                             <?php echo "TicketFlix"; ?>
                         </td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td><label>THEATRE ::*</label></td>
+                        <td><label>THEATRE :</label></td>
                         <td>
                             <?php echo $_POST['theatre']; ?>
                         </td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td><label>TYPE ::*</label></td>
+                        <td><label>TYPE :</label></td>
                         <td>
                             <?php echo $_POST['type']; ?>
                         </td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td><label>txnAmount*</label></td>
+                        <td><label>txnAmount:</label></td>
                         <td>
                             <?php
-                            if ($theatre == "main-hall") {
+                            if ($theatre == "Platinum") {
                                 $ta = 200;
                             }
                             if ($theatre == "Silver") {
                                 $ta = 500;
                             }
-                            if ($theatre == "private-hall") {
+                            if ($theatre == "Gold") {
                                 $ta = 900;
                             }
 
@@ -130,7 +130,6 @@ if (isset($_POST['submit'])) {
                     </tr>
                 </tbody>
             </table>
-            * - Mandatory Fields
         </form>
     </center>
     <!-- Optional JavaScript -->

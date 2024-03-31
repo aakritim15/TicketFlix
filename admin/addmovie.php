@@ -58,9 +58,9 @@ if (isset($_POST['but_logout'])) {
                         <input placeholder="Director" type="text" name="movieDirector" required>
                         <input placeholder="Actors" type="text" name="movieActors" required>
                         <label>Price</label>
-                        <input placeholder="Platinum" type="text" name="mainhall" required><br />
-                        <input placeholder="Silver" type="text" name="viphall" required><br />
-                        <input placeholder="Gold" type="text" name="privatehall" required><br />
+                        <input placeholder="Platinum" type="text" name="Platinum" required><br />
+                        <input placeholder="Silver" type="text" name="Silver" required><br />
+                        <input placeholder="Gold" type="text" name="Gold" required><br />
                         <br>
                         <label>Add Poster</label>
                         <input type="file" name="movieImg" accept="image/*">
@@ -75,9 +75,9 @@ if (isset($_POST['but_logout'])) {
                                             movieRelDate,
                                             movieDirector,
                                             movieActors,
-                                            mainhall,
-                                            viphall,
-                                            privatehall)
+                                            Platinum,
+                                            Silver,
+                                            Gold)
                             VALUES (        'img/" . $_POST['movieImg'] . "',
                                             '" . $_POST["movieTitle"] . "',
                                             '" . $_POST["movieGenre"] . "',
@@ -85,9 +85,9 @@ if (isset($_POST['but_logout'])) {
                                             '" . $_POST["movieRelDate"] . "',
                                             '" . $_POST["movieDirector"] . "',
                                             '" . $_POST["movieActors"] . "',
-                                            '" . $_POST["mainhall"] . "',
-                                            '" . $_POST["viphall"] . "',
-                                            '" . $_POST["privatehall"] . "')";
+                                            '" . $_POST["Platinum"] . "',
+                                            '" . $_POST["Silver"] . "',
+                                            '" . $_POST["Gold"] . "')";
                            $rs= mysqli_query($con, $insert_query);
                            if ($rs) {
                             echo "<script>alert('Sussessfully Submitted');

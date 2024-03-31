@@ -528,7 +528,7 @@
                     .s { background-color: #FF0000; }
                     .c { background-color: aqua; }
                     .x { background-color: pink; }
-                    .f { background-color: gold; }
+                    .f { background-color: Gold; }
                 </style>
                 <?php
                 echo "<pre><tt>";

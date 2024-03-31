@@ -144,7 +144,7 @@
             $p = 0;
 
             echo '<table cellpadding="3" cellspacing="1">
-                    <thead><tr style="border-bottom:1px solid silver"><td colspan="2" style="text-align:center">BENCHMARK</td></tr></thead>
+                    <thead><tr style="border-bottom:1px solid Silver"><td colspan="2" style="text-align:center">BENCHMARK</td></tr></thead>
                     <tbody>';
 
             foreach($GLOBALS['qr_time_bench'] as $markerId=>$thisTime) {

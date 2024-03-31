@@ -106,14 +106,14 @@
             <div class="trailers-grid-item">
                 <img src="img/movie-thumb-4.jpg" alt="">
                 <div class="trailer-item-info" data-video="Ze5YA4mkzhI">
-                    <h3>Secret Men Club</h3>
+                    <h3>Karim</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/movie-thumb-5.jpg" alt="">
                 <div class="trailer-item-info" data-video="lbUAVTc7NTo">
-                    <h3>VICE</h3>
+                    <h3>Vice</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
