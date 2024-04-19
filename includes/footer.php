@@ -8,9 +8,9 @@
 <div class="footer-section footer-section2">
     <h2><i class="fas fa-user-alt"></i> Social Media</h2>
     <div class="footer-section-inner-container">
-        <span><i class="fab fa-lg fa-facebook-square"></i> Facebook</span>
-        <span><i class="fab fa-lg fa-twitter-square"></i> Twitter</span>
-        <span><i class="fab fa-lg fa-instagram"></i> Instagram</span>
+        <span><i class="fab fa-lg fa-facebook-square"> <a href="https://www.facebook.com/" ></i> Facebook</span></a>
+        <span><i class="fab fa-lg fa-twitter-square"><a href="https://twitter.com/"></i> Twitter</span></a>
+        <span><i class="fab fa-lg fa-instagram"> <a href="https://www.instagram.com/" ></i> Instagram</span></a>
     </div>
 </div>
 <div class="footer-section  footer-section3">

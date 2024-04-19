@@ -15,7 +15,10 @@
 <body>
     <?php
     include "connection.php";
+
+
     ?>
+
     <header></header>
     <div class="contact-us-container">
         <div class="contact-us-section contact-us-section1">
@@ -28,6 +31,12 @@
                 <textarea placeholder="Enter your message !" name="feedback" rows="10" cols="30" required></textarea><br>
                 <button type="submit" name="submit" value="submit">Send your Message</button>
                 <?php
+                
+                function validateEmail($email) {
+                    $emailRegex = '/^\S+@\S+\.\S+$/';
+                    return preg_match($emailRegex, $email);
+                }
+
                 if (isset($_POST['submit'])) {
                     $insert_query = "INSERT INTO 
                         feedbackTable ( senderfName,
@@ -40,8 +49,21 @@
                                         '" . $_POST["feedback"] . "')";
                     $add = mysqli_query($con, $insert_query);
 
-                    if ($add) {
-                        echo "<script>alert('Succesfully Submitted');</script>";
+                    
+                    if (!validateEmail($eMail)) {
+                        echo "<script>alert('Invalid email format for E-mail Address');</script>";
+                    }
+                     else {
+                        $insert_query = "INSERT INTO feedbackTable (senderfName, senderlName, sendereMail, senderfeedback)
+                                        VALUES ('$fName', '$lName', '$eMail', '$feedback')";
+                        $add = mysqli_query($con, $insert_query);
+                
+                        if ($add) {
+                            echo "<script>alert('Successfully Submitted');</script>";
+                        } 
+                        else {
+                            echo "<script>alert('Failed to submit. Please try again later.');</script>";
+                        }
                     }
                 }
                 ?>

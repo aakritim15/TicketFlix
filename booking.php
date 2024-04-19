@@ -110,8 +110,6 @@ $row = mysqli_fetch_array($movieImageById);
                     <input placeholder="email" type="email" name="email" required>
                     <input type="hidden" name="movie_id" value="<?php echo $id; ?>">
 
-
-
                     <button type="submit" value="save" name="submit" class="form-btn">Book a seat</button>
 
                 </form>

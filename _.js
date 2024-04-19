@@ -626,30 +626,30 @@
                                                 }); A.jQuery = A.$ = c
 })(window);
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-        $(document)[0].oncontextmenu = function () { return false; }
+//         // $(document)[0].oncontextmenu = function () { return false; }
 
-        $(document).mousedown(function (e) {
-                if (e.button == 2) {
+//         $(document).mousedown(function (e) {
+//                 if (e.button == 2) {
 
-                        return false;
-                } else {
-                        return true;
-                }
+//                         return false;
+//                 } else {
+//                         return true;
+//                 }
 
-        });
+//         });
 
-        document.onkeydown = function (e) {
-                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 73 || e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 16 || e.keyCode === 117)) {
-                        $("body").empty();
-                        $("body").append('<center><H1></h1></center>')
-                        return false;
-                } else if (e.keyCode === 123) {
-                        $("body").empty();
-                        $("body").append('<center><H1></h1></center>')
-                        return false;
-                }
-        };
+//         document.onkeydown = function (e) {
+//                 if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 73 || e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 16 || e.keyCode === 117)) {
+//                         $("body").empty();
+//                         $("body").append('<center><H1></h1></center>')
+//                         return false;
+//                 } else if (e.keyCode === 123) {
+//                         $("body").empty();
+//                         $("body").append('<center><H1></h1></center>')
+//                         return false;
+//                 }
+//         };
 
-});
+// });
